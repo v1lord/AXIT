@@ -1,0 +1,336 @@
+@media (max-width: 1200px) {
+  .wrapper {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1520px) {
+  .wrapper {
+    max-width: 100%;
+  }
+  input, textarea {
+    max-width: 450px;
+  }
+  .contact .wrapper {
+    width: 1170px;
+  }
+}
+
+@media (max-width: 1225px) {
+.unit .unit__axit h3 {
+    font-size: 38px;
+    width: 450px;
+  }
+.main .unit button {
+    width: 270px;
+    margin: 0 auto;
+  }
+  p {
+    font-size: 0.8em;
+  }
+  .wrapper {
+    max-width: 100%;
+  }
+  .contact .wrapper {
+    width: 1170px;
+  }
+  .media__icon svg {
+    width: 35px;
+    height: 35px;
+  }
+.media .media__info h2 {
+    font-size: 19px;
+  }
+  .reviews .reviews__blocks {
+    display: grid;
+    grid-row: 20;
+    grid-template-areas: "one two " "three three  ";
+    align-items: center;
+  }
+  .three {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .options .options__services {
+    display: grid;
+    grid-row: 20;
+    grid-template-areas: "one two " "three three  ";
+    align-items: center;
+  }
+.options__services ul.optima {
+    margin-top: 0px;
+  }
+  input, textarea {
+    max-width: 300px;
+  }
+.wrapper .awasome__block {
+    display: grid;
+    grid-row: 20;
+    grid-template-areas: "one two " "three three  ";
+    align-items: center;
+  }
+
+  .options .options__services .one {
+    margin-top: 0px;
+}
+
+}
+
+@media (max-width: 860px) {
+  .media__icon svg {
+    width: 28px;
+    height: 28px;
+  }
+.media .media__info {
+    width: 400px;
+  }
+.media .media__info h2 {
+    margin: 0px 0px 20px 80px;
+  }
+.media .media__icon {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+.media .media__info p {
+    width: auto;
+  }
+.unit .unit__axit h3 {
+    font-size: 38px;
+    width: 350px;
+  }
+.main .forms input {
+    width: 250px;
+  }
+  .options .options__services {
+    display: grid;
+    grid-row: 20;
+    grid-template-areas: "one" "two" "three";
+    align-items: center;
+  }
+
+  .options__services ul.optima {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .awasome .wrapper .awasome__block {
+    display: grid;
+    grid-row: 20;
+    grid-template-areas: "one" "two" "three";
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .one, .two {
+    margin-bottom: 20px;
+  }
+  .three {
+    padding-top: 0px;
+  }
+  .reviews .reviews__blocks {
+    display: grid;
+    grid-row: 20;
+    grid-template-areas: "one" "two" "three";
+    align-items: center;
+  }
+  .reviews .reviews__review {
+    display: flex;
+    margin: 0 auto 40px;
+    width: 80%;
+  }
+  .reviews .reviews__review::before {
+    transform: translateX(190%) translateY(200%);
+  }
+  .social .media {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1170px;
+  }
+.media .media__icon {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding: 15px 0px;
+  }
+.media .media__info {
+    width: 100%;
+    text-align: center;
+  }
+.media .media__info h2 {
+    margin: 0px auto;
+  }
+.main .forms h2 {
+    font-size: 18px;
+  }
+.unit .unit__axit h3 {
+    font-size: 28px;
+    width: 350px;
+    line-height: 36px;
+    margin: 25px 0 30px 0;
+  }
+.main .unit button {
+    width: 200px;
+    margin: 0 auto;
+  }
+.main .forms {
+    width: 470px;
+    height: 400px;
+  }
+.main .forms h2 {
+    margin: 10px auto;
+    width: 280px;
+  }
+  .wrapper__form #form__send {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  input, textarea {
+    max-width: 350px;
+    margin-bottom: 7px;
+  }
+  .reviews .male__ico {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 675px) {
+  header .main {
+    display: flex;
+    flex-direction: column;
+  }
+.unit .unit__axit {
+    display: flex;
+    flex-direction: column;
+    margin: -170px auto 0;
+    align-items: center;
+    text-align: center;
+    width: 450px;
+  }
+.unit .unit__axit h3 {
+    margin: 15px auto;
+  }
+.unit .unit__axit hr {
+    margin: 15px auto;
+  }
+.unit .unit__axit P {
+    margin: 15px auto;
+  }
+.unit__axit .svg__one,.unit__axit .svg__two {
+    display: none;
+  }
+.main .unit button {
+    margin-bottom: 30px;
+  }
+  header .main .forms {
+    margin: 0 auto;
+    width: 350px;
+  }
+  .menu {
+    display: block;
+  }
+  .banner__nav {
+    display: none;
+  }
+  header .banner .wrapper {
+    height: 60px;
+  }
+  header .main .unit {
+    width: 470px;
+    margin: 0 auto;
+  }
+
+    header .banner {
+      background-color: #000;
+      /* position: -webkit-sticky; */
+      position: static;
+  }
+
+  .burger__menu.active + nav {
+    z-index: 3;
+  }
+
+}
+
+@media (max-width: 575px) {
+  .reviews .reviews__review::before {
+    transform: translateX(190%) translateY(240%);
+  }
+  .axure .wrapper button {
+    width: 300px;
+  }
+  .contact button {
+    width: 300px;
+  }
+  input, textarea {
+    max-width: 300px;
+  }
+  .media__icon svg {
+    width: 22px;
+    height: 22px;
+  }
+.options__services ul li {
+    width: 310px;
+  }
+  header .main .unit {
+    width: 310px;
+  }
+.unit .unit__axit h3 {
+    width: 310px;
+  }
+.unit .unit__axit {
+    width: 310px;
+  }
+.main .forms {
+    width: 310px;
+  }
+  .social .media .media__icon {
+    width: 310px;
+    margin: 0 auto;
+  }
+  .reviews .male__ico {
+    width: 310px;
+  }
+.footer__social .media__icon {
+    -moz-column-gap: 23px;
+    column-gap: 23px;
+  }
+  .options .options__services {
+    width: 320px;
+  }
+.options__services .basic, .options .options__services .optima, .options .options__services .pro {
+    margin: 0 auto 20px;
+  }
+}
+
+@media (max-width: 473px) {
+  .reviews .reviews__review::before {
+    transform: translateX(190%) translateY(280%);
+  }
+}
+
+@media (max-width: 377px) {
+  .reviews .reviews__review::before {
+    transform: translateX(190%) translateY(320%);
+  }
+
+  header .main .forms {
+    width: 310px;
+}
+}
+
+.one {
+  grid-area: one;
+}
+
+.two {
+  grid-area: two;
+}
+
+.three {
+  grid-area: three;
+}/*# sourceMappingURL=media.css.map */
